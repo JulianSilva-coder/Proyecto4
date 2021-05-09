@@ -19,25 +19,25 @@ body{
     color: rgb(183,183,183);
 }
 
-.menu1{
+.menu{
     list-style: none;
     padding: 0;
     background: #FF0000;
     width: 100%;
     margin: initial;
 }
-.menu1 li a{
+.menu li a{
     text-decoration: none;
     color: white;
     padding: 20px;
     display: block;
 }
-.menu1 li{
+.menu li{
     display: inline-block;
     text-align: center;
 }
 
-.menu1 li a:hover{
+.menu li a:hover{
     background: #ef8354;
 }
 .contenedor{

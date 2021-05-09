@@ -4,8 +4,8 @@
     <!-- Este Link se encarga de colocar una imagen (ICO) para la pestaña de la página-->
     <link rel="icon" href="Imagenes/patitA.ico"/>
     <title>Ciudadanos 4 Patas </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="estilo.css"/>
-    <script src="JS/jquery-3.6.0.min.js"></script>
     <script src="JS/Funcionalidad.js" type="text/javascript"></script>
 </head>
 <body>
@@ -13,14 +13,15 @@
     <h1 style="font: oblique bold 400% cursive; " class="h1Inicio">Bienvenido a Mascotas</h1>
     <div style="background-color: #838383;">
         <p style="font: oblique bold 200% cursive; background-color: #FF0000" class="parrafoinicio">Por favor para poder cargar imagenes de su mascota llene el siguiente campo:</p>
-        <form action="Login" method="post">
+
+        <form action="Iniciar" method="POST">
             <p style="font: oblique bold 200% cursive;">CLIENTE</p>
             <input type="text" style="width: 200px; height: 35px;" name="Barra_Usuario">
             <br><br>
             <p style="font: oblique bold 200% cursive;">LUEGO</p>
-            <input class="registrars" style="font: oblique bold 200% cursive;" type="button" value="Iniciar Sesion">
+            <input class="registrars" style="font: oblique bold 200% cursive;" type="submit" value="Iniciar Sesion">
         </form>
-        <p style="font: oblique bold 200% serif; background-color: #FF0000" class="parrafoinicio">Para Iniciar</p>
+        <p style="font: oblique bold 200% cursive; background-color: #FF0000" class="parrafoinicio">Para Iniciar</p>
     </div>
 </center>
 </body>
