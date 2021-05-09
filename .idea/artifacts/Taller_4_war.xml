@@ -7,7 +7,7 @@
         <packaging>war</packaging>
       </options>
     </properties>
-    <root id="archive" name="Proyecto4-1.0-SNAPSHOT.war">
+    <root id="archive" name="taller-4-1.0-SNAPSHOT.war">
       <element id="artifact" artifact-name="Taller 4:war exploded" />
     </root>
   </artifact>
