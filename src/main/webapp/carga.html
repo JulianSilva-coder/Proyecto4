@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Este Link se encarga de colocar una imagen (ICO) para la pestaña de la página-->
+    <link rel="icon" href="Imagenes/patitA.ico"/>
+    <title>Formulario </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilo.css"/>
+</head>
+<body bgcolor="FFFFFF">
+<!--Dentro de la lista desordenada (ul) manda un clase "menu" para reconocerla en los setting del CSS realizaremos -->
+<ul class="menu">
+    <!--El oblique bold realiza la cantidad de tamaño (recordar poner el "%").
+    y el tipo de fuente el cursive, mientras que el href realiza la direccion url para sitios web ya existentes-->
+    <li style="font: oblique bold 120% cursive;"><a href="Ventana_Inicio.html">Inicio</a></li>
+    <li style="font: oblique bold 120% cursive;"><a href="Lista.html">Lista Imagenes</a></li>
+        <!--Este Script lo utilizamos como una URL para direccionar para la pestaña de la funcionalidad de JavaScripFuncionalidad.js-->
+    <label class="espacio">________________________________________________________________________________________________________________________________S</label>
+    <img  id="imagen" src="Imagenes/patita.png" width="40" height="40"/>
+    <label style="font: oblique bold 120% cursive;">MASCOTAS</label>
+</ul>
+<center>
+    <div style="background-color: #838383;">
+        <p style="font: oblique bold 200% cursive; background-color: #FF0000" class="parrafoinicio">Seleccione el archivo JPG y PNG:</p>
+        <form action="Imagen_Iniciar" method="POST">
+            <input class="registrars" style="font: oblique bold 200% cursive;" type="file" id="file">
+            <div id="preview"></div>
+            <br><br>
+            <p style="font: oblique bold 200% cursive; color: white">Descripcion</p>
+            <input type="text" style="width: 200px; height: 35px;" name="Descripcion">
+        </form>
+        <p style="font: oblique bold 200% cursive; background-color: #FF0000" class="parrafoinicio">Y una descripcion para identificarlo</p>
+    </div>
+    <input style="font: oblique bold 200% cursive;" type="submit" value="Subir">
+    <script src="JS/Funcionalidad.js"></script>
+</center>
+</body>
+</html>
