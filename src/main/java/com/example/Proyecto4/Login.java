@@ -18,6 +18,7 @@ public class Login extends HttpServlet {
         if(!nombre.isEmpty()){
             response.addCookie(new Cookie("Barra_Usuario", nombre));
             response.sendRedirect(diregir);
+            System.out.println("cookie added!");
         }else{
             salida.println("<script type= \"text/Javascript\">");
             salida.println("alert('Datos vacios, Por favor ingrese los datos');");
@@ -25,4 +26,4 @@ public class Login extends HttpServlet {
             salida.println("</script>");
         }
     }
-    }
+}
